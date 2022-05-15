@@ -4,81 +4,124 @@
 </style>
 
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, maximum-scale"/>
-	<title>Final Project Sketches</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	</head>
+  <title>Digital Polaroids</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
 <body>
-	<div class="sidenav">
-	  <a href="index.html">Home</a>
-	  <a href="other.html">Animals</a>
-	  <a href="other2.html">Filters</a>
-	  <a href="#Link">Cursed Photos</a>
-		<a href="fake.html">Digital Polaroid</a>
-		<a href="">Old Photos</a>
-	</div>
 
+  <div class="text-center p-5" style="background-color: rgba(7, 47, 94, 100);">
+    <h1>Digital Polaroids</h1>
+  </div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item text-center">
+        <a class="nav-link active" href="index.html">Back To Homepage</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="other.html">Animal Pictures</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="other4.html">Cursed Images</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="fake.html">Digital Polaroids</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="other2.html">Digital Image Filters</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="other3.html">Pictures From a Century Ago</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container mt-5">
+  <div class="row">
+      <hr class="d-sm-none">
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-	<div class="photo1">
-<img src="polaroid1.jpg" width="300" height="350">
-</div>
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+    </div>
 
-<div class="photo2">
-	<img src="photo2.jpg" width="300" height="250">
-</div>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/photo2.jpg" alt="" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/photo3.jpg" alt="" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/photo4.jpg" alt="" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/photo5.jpg" alt="" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/photo6.jpg" alt="" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/photo7.jpg" alt="" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/polaroid1.jpg" alt="" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/river.jpg" alt="" class="d-block" style="width:100%">
+      </div>
+    </div>
 
-<div class="photo3">
-	<img src="photo3.jpg" width="300" height="350">
-</div>
-
-<div class="photo4">
-	<img src="photo4.jpg" width="300" height="350">
-</div>
-
-<div class="photo5">
-	<img src="photo5.jpg" width="300" height="350">
-</div>
-
-<div class="photo7">
-	<img src="photo7.jpg" width="400" height="350">
-</div>
-
-<div class="photo6">
-	<img src="photo6.jpg" width="300" height="350">
-</div>
-
-
-<div class="river">
-	<img src="river.jpg" width="300" height="500">
-</div>
-
-<div class="title">
-	<h1>Digital Polaroids</h1>
-</div>
-
-
-<div class="desc">
-<p>The Polaroid Corporation was founded by American scientist Edwin H. Land in 1937.
-	The first Polaroid camera, called the Model 95, and its associated film went on sale in 1948 at a department store in Boston. It was a revolutionary that it transformed the photographic medium in ways that can still be seen today.
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+<div class="row">
+  <div class="col-lg-12">
+    <h2>History of The Polaroid</h2>
+    <p>The Polaroid Corporation was founded by American scientist Edwin H. Land in 1937.
+	The first Polaroid camera, called the Model 95, and its associated film went on sale in 1948 at a department store in Boston. It was revolutionary in that it transformed the photographic medium in ways that can still be seen today.
 	Even if you haven’t adopted an analog process for creating photos, many of us enjoy applying filters to make our digital images look grainy,
 	and as though they have vignettes or light leaks.</p>
 </div>
-
-<div class="desc2">
-<p>Why are polaroids so popular today? Well the new generation thinks that polaroids are cool, just like the way they think vinyls are cool. People like the authentic and vintage feeling from polaroids. And the reason I choose this topic was because I liked the polaroid look from the pictures. Just like the way it looks and the vibes it kind of gives out.</p>
-
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <h2>History of Digital Image Filters</h2>
+    <p>Digital image editing was made in 1980s from the creation of photoediting programs on computers. Adobe Photoshop was also made during the 80s' and released in 1987 and we still use it a lot in the photography scene. The screenshots above are of the old software and of the history of the toolbar in photoshop</p>
+</div>
 </div>
 
 
-<div class="footer">
-	<p>Created by: Damian P   ©</p>
+<div class="row">
+  <div class="text-center p-5">
+    <h3> Created by: Damian P. </h3>
+  </div>
 </div>
-
-
-<div class="square"></div>
-<div class="square2"></div>
 
 
 
